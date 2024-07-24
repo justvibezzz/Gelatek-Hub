@@ -822,26 +822,41 @@ Global.Kades_Stuff = {
 	NCollide = false,
 	Flinging = false,
 	FastLoad = false,
-	Limbs = {
-		["Right Arm"] = {
-			{Texture = "12344206675", Mesh = "12344206657", Name = "Extra Right hand (Blocky)_white", Offset = CFrame.Angles(math.rad(-120), 0, 0)}
-		},
+	Limbs = {    -- hats used for limbs replacement for the rig  (default hats below)
+		["Right Arm"] = { -- Right Arm
+			name = "RARM",
+			texture = "rbxassetid://12344206675",
+			mesh = "rbxassetid://12344206657",
+			offset = cf_angle(math.rad(-120), 0, 0)
+		}, -- Right Arm
 
-		["Left Arm"] = {
-			{Texture = "12344207341", Mesh = "12344207333", Name = "Extra Left hand (Blocky)_white", Offset = CFrame.Angles(math.rad(-120), 0, 0)}
-		},
+		["Left Arm"] = { -- Left Arm
+			name = "LARM",
+			texture = "rbxassetid://12344207341", 
+			mesh = "rbxassetid://12344207333",
+			offset = cf_angle(math.rad(-120), 0, 0)
+		}, -- Left Arm
 
-		["Right Leg"] = {
-			{Texture = "11159284657", Mesh = "11159370334", Name = "Unloaded head", Offset = CFrame.Angles(0, 0, math.rad(90))}
-		},
+		["Right Leg"] = { -- Right Leg
+			name = "Accessory (RARM)",
+			texture = "rbxassetid://11159284657", 
+			mesh = "rbxassetid://11159370334",
+			offset = cf_angle(0, 0, math.rad(90))
+		}, -- Right Leg
 
-		["Left Leg"] = {
-			{Texture = "11263219250", Mesh = "11263221350", Name = "MeshPartAccessory", Offset = CFrame.Angles(0, 0, math.rad(-90))}
-		},
+		["Left Leg"] = { -- Left Leg
+			name = "Accessory (LARM)",
+			texture = "rbxassetid://11263219250", 
+			mesh = "rbxassetid://11263221350",
+			offset = cf_angle(0, 0, math.rad(-90))
+		}, -- Left Leg
 
-		["Torso"] = {
-			{Texture = "13779858015", Mesh = "13778226115", Name = "Front", Offset = CFrame.Angles(0, 0, 0)}
-		},
+		["Torso"] = { -- Torso
+			name = "MeshPartAccessory",
+			texture = "rbxassetid://13779858015", 
+			mesh = "rbxassetid://13778226115",
+			offset = cf_zero
+		}, -- Torso
 	}
 }
 
