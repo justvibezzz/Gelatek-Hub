@@ -1,5 +1,5 @@
 -- [[ Stand proud. ]] --
-local Modules = loadstring(game:HttpGet("https://raw.githubusercontent.com/KadeTheExploiter/Gelatek-Hub/main/lib/misc/modules.lua"))()
+local Modules = loadstring(game:HttpGet("https://raw.githubusercontent.com/qwertyuiop1923/Gelatek-Hub/main/lib/misc/modules.lua"))()
 local Global = getfenv(0).xyzkade
 
 local Tween = game:FindFirstChildOfClass("TweenService")
@@ -155,7 +155,7 @@ ChangeSetting(SettingButtons[3], 'Flinging')
 ChangeSetting(SettingButtons[4], 'FastLoad')
 
 local function ScriptLoad(Name)
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/KadeTheExploiter/Gelatek-Hub/main/lib/scripts/"..Name..".lua"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/qwertyuiop1923/Gelatek-Hub/main/lib/scripts/"..Name..".lua"))()
 end
 
 AddScript("Sniper", "Unknown Creator", function() 
