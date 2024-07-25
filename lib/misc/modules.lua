@@ -887,36 +887,36 @@ Global.Reanimation = function()
 	local limbs         = config.limbs or {       -- hats used for limbs replacement for the rig  (default hats below)
 		["Right Arm"] = { -- Right Arm
 			name = "RARM",
-			texture = "rbxassetid://14255544465",
-			mesh = "rbxassetid://14255522247",
-			offset = cf_angle(0, 0, mt_rad(90))
+			texture = "rbxassetid://12344206675",
+			mesh = "rbxassetid://12344206657",
+			offset = cf_angle(math.rad(-120), 0, 0)
 		}, -- Right Arm
-	
+
 		["Left Arm"] = { -- Left Arm
 			name = "LARM",
-			texture = "rbxassetid://14255544465",
-			mesh = "rbxassetid://14255522247",
-			offset = cf_angle(0, 0, mt_rad(90))
+			texture = "rbxassetid://12344207341", 
+			mesh = "rbxassetid://12344207333",
+			offset = cf_angle(math.rad(-120), 0, 0)
 		}, -- Left Arm
 
 		["Right Leg"] = { -- Right Leg
 			name = "Accessory (RARM)",
-			texture = "rbxassetid://17374768001",
-			mesh = "rbxassetid://17374767929",
-			offset = cf_angle(0, 0, mt_rad(90))
+			texture = "rbxassetid://11159284657", 
+			mesh = "rbxassetid://11159370334",
+			offset = cf_angle(0, 0, math.rad(90))
 		}, -- Right Leg
 
 		["Left Leg"] = { -- Left Leg
 			name = "Accessory (LARM)",
-			texture = "rbxassetid://17374768001",
-			mesh = "rbxassetid://17374767929",
-			offset = cf_angle(0, 0, mt_rad(90))
+			texture = "rbxassetid://11263219250", 
+			mesh = "rbxassetid://11263221350",
+			offset = cf_angle(0, 0, math.rad(-90))
 		}, -- Left Leg
 
 		["Torso"] = { -- Torso
 			name = "MeshPartAccessory",
-			texture = "rbxassetid://13415110780",
-			mesh = "rbxassetid://13421774668",
+			texture = "rbxassetid://13779858015", 
+			mesh = "rbxassetid://13778226115",
 			offset = cf_zero
 		}, -- Torso
 	}
