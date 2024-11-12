@@ -1,5 +1,5 @@
 -- [[ Stand proud. ]] --
-local Modules = loadstring(game:HttpGet("https://raw.githubusercontent.com/justvibezzz/Gelatek-Hub/refs/heads/patch-1/lib/misc/modules.lua"))()
+local Modules = loadstring(game:HttpGet("https://raw.githubusercontent.com/justvibezzz/Gelatek-Hub/refs/heads/main/lib/misc/modules.lua"))()
 local Global = getfenv(0).xyzkade
 
 local Tween = game:FindFirstChildOfClass("TweenService")
