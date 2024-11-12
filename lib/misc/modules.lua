@@ -825,36 +825,36 @@ Global.Kades_Stuff = {
 	Limbs = {    -- hats used for limbs replacement for the rig  (default hats below)
 		["Right Arm"] = { -- Right Arm
 			name = "RARM",
-			texture = "rbxassetid://12344206675",
-			mesh = "rbxassetid://12344206657",
-			offset = cf_angle(math.rad(-120), 0, 0)
+			texture = "rbxassetid://18640914168",
+			mesh = "rbxassetid://18640914129",
+			offset = cf_angle(0, 0, mt_rad(90))
 		}, -- Right Arm
 
 		["Left Arm"] = { -- Left Arm
 			name = "LARM",
-			texture = "rbxassetid://12344207341", 
-			mesh = "rbxassetid://12344207333",
-			offset = cf_angle(math.rad(-120), 0, 0)
+			texture = "rbxassetid://18640914168", 
+			mesh = "rbxassetid://18640914129",
+			offset = cf_angle(0, 0, mt_rad(90))
 		}, -- Left Arm
 
 		["Right Leg"] = { -- Right Leg
 			name = "Accessory (RARM)",
-			texture = "rbxassetid://11159284657", 
-			mesh = "rbxassetid://11159370334",
-			offset = cf_angle(0, 0, math.rad(90))
+			texture = "rbxassetid://18640901676", 
+			mesh = "rbxassetid://18640901641",
+			offset = cf_angle(0, 0, mt_rad(90))
 		}, -- Right Leg
 
 		["Left Leg"] = { -- Left Leg
 			name = "Accessory (LARM)",
-			texture = "rbxassetid://11263219250", 
-			mesh = "rbxassetid://11263221350",
-			offset = cf_angle(0, 0, math.rad(-90))
+			texture = "rbxassetid://18640901676", 
+			mesh = "rbxassetid://18640901641",
+			offset = cf_angle(0, 0, mt_rad(90))
 		}, -- Left Leg
 
 		["Torso"] = { -- Torso
 			name = "MeshPartAccessory",
-			texture = "rbxassetid://13779858015", 
-			mesh = "rbxassetid://13778226115",
+			texture = "rbxassetid://18640899369", 
+			mesh = "rbxassetid://18640899481",
 			offset = cf_zero
 		}, -- Torso
 	}
@@ -884,39 +884,39 @@ Global.Reanimation = function()
 	local flinging      = config.Flinging -- uses your real char as a fling, will delay slightly autorespawning
 	local tpless        = config.FastLoad  -- wont tp your character. resets instantly. might be unstable.
 	local deathpoint    = config.DedPoint   -- tps you back to the same place when you stopped the reanimate
-	local limbs         = {       -- hats used for limbs replacement for the rig  (default hats below)
-		["Right Arm"] = { -- Right Arm
+	local limbs         = config.limbs or {       -- hats used for limbs replacement for the rig  (default hats below)
+	["Right Arm"] = { -- Right Arm
 			name = "RARM",
-			texture = "rbxassetid://12344206675",
-			mesh = "rbxassetid://12344206657",
-			offset = cf_angle(math.rad(-120), 0, 0)
+			texture = "rbxassetid://18640914168",
+			mesh = "rbxassetid://18640914129",
+			offset = cf_angle(0, 0, mt_rad(90))
 		}, -- Right Arm
 
 		["Left Arm"] = { -- Left Arm
 			name = "LARM",
-			texture = "rbxassetid://12344207341", 
-			mesh = "rbxassetid://12344207333",
-			offset = cf_angle(math.rad(-120), 0, 0)
+			texture = "rbxassetid://18640914168", 
+			mesh = "rbxassetid://18640914129",
+			offset = cf_angle(0, 0, mt_rad(90))
 		}, -- Left Arm
 
 		["Right Leg"] = { -- Right Leg
 			name = "Accessory (RARM)",
-			texture = "rbxassetid://11159284657", 
-			mesh = "rbxassetid://11159370334",
-			offset = cf_angle(0, 0, math.rad(90))
+			texture = "rbxassetid://18640901676", 
+			mesh = "rbxassetid://18640901641",
+			offset = cf_angle(0, 0, mt_rad(90))
 		}, -- Right Leg
 
 		["Left Leg"] = { -- Left Leg
 			name = "Accessory (LARM)",
-			texture = "rbxassetid://11263219250", 
-			mesh = "rbxassetid://11263221350",
-			offset = cf_angle(0, 0, math.rad(-90))
+			texture = "rbxassetid://18640901676", 
+			mesh = "rbxassetid://18640901641",
+			offset = cf_angle(0, 0, mt_rad(90))
 		}, -- Left Leg
 
 		["Torso"] = { -- Torso
 			name = "MeshPartAccessory",
-			texture = "rbxassetid://13779858015", 
-			mesh = "rbxassetid://13778226115",
+			texture = "rbxassetid://18640899369", 
+			mesh = "rbxassetid://18640899481",
 			offset = cf_zero
 		}, -- Torso
 	}
