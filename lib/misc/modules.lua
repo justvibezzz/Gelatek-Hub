@@ -889,7 +889,7 @@ Global.Reanimation = function()
 			name = "RARM",
 			texture = "rbxassetid://18640914168",
 			mesh = "rbxassetid://18640914129",
-			offset = cf_angle(0, 0, mt_rad(90))
+			offset =  cf_angle(math.rad(-120), 0, 0)
 		}, -- Right Arm
 
 		["Left Arm"] = { -- Left Arm
