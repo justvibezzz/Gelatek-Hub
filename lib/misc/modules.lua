@@ -853,8 +853,8 @@ Global.Kades_Stuff = {
 
 		["Torso"] = { -- Torso
 			name = "MeshPartAccessory",
-			texture = "rbxassetid://13415110780", 
-			mesh = "rbxassetid://13421774668",
+			texture = "rbxassetid://13779858015", 
+			mesh = "rbxassetid://13778226115",
 			offset = cf_zero
 		}, -- Torso
 	}
@@ -915,8 +915,8 @@ Global.Reanimation = function()
 
 		["Torso"] = { -- Torso
 			name = "MeshPartAccessory",
-			texture = "rbxassetid://13415110780",
-			mesh = "rbxassetid://13421774668",
+			texture = "rbxassetid://13779858015", 
+			mesh = "rbxassetid://13778226115",
 			offset = cf_zero
 		}, -- Torso
 	}
