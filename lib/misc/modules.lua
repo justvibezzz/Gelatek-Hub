@@ -825,36 +825,36 @@ Global.Kades_Stuff = {
 	Limbs = {    -- hats used for limbs replacement for the rig  (default hats below)
 		["Right Arm"] = { -- Right Arm
 			name = "RARM",
-			texture = "rbxassetid://18640914168",
-			mesh = "rbxassetid://18640914129",
+			texture = "rbxassetid://14255544465",
+			mesh = "rbxassetid://14255522247",
 			offset = cf_angle(0, 0, mt_rad(90))
 		}, -- Right Arm
 
 		["Left Arm"] = { -- Left Arm
 			name = "LARM",
-			texture = "rbxassetid://18640914168",
-			mesh = "rbxassetid://18640914129",
+			texture = "rbxassetid://14255544465", 
+			mesh = "rbxassetid://14255522247",
 			offset = cf_angle(0, 0, mt_rad(90))
 		}, -- Left Arm
 
 		["Right Leg"] = { -- Right Leg
 			name = "Accessory (RARM)",
-			texture = "rbxassetid://186409016761", 
-			mesh = "rbxassetid://18640901641",
+			texture = "rbxassetid://17374768001", 
+			mesh = "rbxassetid://17374767929",
 			offset = cf_angle(0, 0, mt_rad(90))
 		}, -- Right Leg
 
 		["Left Leg"] = { -- Left Leg
 			name = "Accessory (LARM)",
-			texture = "rbxassetid://186409016761", 
-			mesh = "rbxassetid://18640901641",
+			texture = "rbxassetid://17374768001", 
+			mesh = "rbxassetid://17374767929",
 			offset = cf_angle(0, 0, mt_rad(90))
 		}, -- Left Leg
 
 		["Torso"] = { -- Torso
 			name = "MeshPartAccessory",
-			texture = "rbxassetid://18640899481", 
-			mesh = "rbxassetid://18640899369",
+			texture = "rbxassetid://13415110780", 
+			mesh = "rbxassetid://13421774668",
 			offset = cf_zero
 		}, -- Torso
 	}
@@ -885,38 +885,38 @@ Global.Reanimation = function()
 	local tpless        = config.FastLoad  -- wont tp your character. resets instantly. might be unstable.
 	local deathpoint    = config.DedPoint   -- tps you back to the same place when you stopped the reanimate
 	local limbs         = config.limbs or {       -- hats used for limbs replacement for the rig  (default hats below)
-			["Right Arm"] = { -- Right Arm
+		["Right Arm"] = { -- Right Arm
 			name = "RARM",
-			texture = "rbxassetid://18640914168",
-			mesh = "rbxassetid://18640914129",
-			offset =  cf_angle(math.rad(-120), 0, 0)
+			texture = "rbxassetid://14255544465",
+			mesh = "rbxassetid://14255522247",
+			offset = cf_angle(0, 0, mt_rad(90))
 		}, -- Right Arm
-
+	
 		["Left Arm"] = { -- Left Arm
 			name = "LARM",
-			texture = "rbxassetid://18640914168",
-			mesh = "rbxassetid://18640914129",
+			texture = "rbxassetid://14255544465",
+			mesh = "rbxassetid://14255522247",
 			offset = cf_angle(0, 0, mt_rad(90))
 		}, -- Left Arm
 
 		["Right Leg"] = { -- Right Leg
 			name = "Accessory (RARM)",
-			texture = "rbxassetid://186409016761", 
-			mesh = "rbxassetid://18640901641",
+			texture = "rbxassetid://17374768001",
+			mesh = "rbxassetid://17374767929",
 			offset = cf_angle(0, 0, mt_rad(90))
 		}, -- Right Leg
 
 		["Left Leg"] = { -- Left Leg
 			name = "Accessory (LARM)",
-			texture = "rbxassetid://186409016761", 
-			mesh = "rbxassetid://18640901641",
+			texture = "rbxassetid://17374768001",
+			mesh = "rbxassetid://17374767929",
 			offset = cf_angle(0, 0, mt_rad(90))
 		}, -- Left Leg
 
 		["Torso"] = { -- Torso
 			name = "MeshPartAccessory",
-			texture = "rbxassetid://18640899481", 
-			mesh = "rbxassetid://18640899369",
+			texture = "rbxassetid://13415110780",
+			mesh = "rbxassetid://13421774668",
 			offset = cf_zero
 		}, -- Torso
 	}
